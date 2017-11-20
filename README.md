@@ -1,5 +1,7 @@
 # Streamify Array
 
+[![npm version](https://badge.fury.io/js/streamify-array.svg)](https://www.npmjs.com/package/streamify-array)
+
 Converts an array into a Node readable stream.
 
 This is a very simple zero-dependency implementation.
