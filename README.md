@@ -12,7 +12,7 @@ This is a very simple zero-dependency implementation.
 const streamifyArray = require('streamify-array');
 
 let stream = streamifyArray([ 'a', 'b', 'c' ]);
-stream.on('data', (e) => console.log('Data: ' + d));
+stream.on('data', (d) => console.log('Data: ' + d));
 stream.on('end', () => console.log('Done!'))
 ```
 
