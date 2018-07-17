@@ -1,6 +1,6 @@
 # Streamify Array
 
-[![npm version](https://badge.fury.io/js/streamify-array.svg)](https://www.npmjs.com/package/streamify-array)
+[![npm version](https://badge.fury.io/js/streamify-array.svg)](https://www.npmjs.com/package/streamify-array) [![Greenkeeper badge](https://badges.greenkeeper.io/rubensworks/streamify-array.js.svg)](https://greenkeeper.io/)
 
 Converts an array into a Node readable stream.
 
