@@ -4,7 +4,8 @@
   "description": "Converts an array into a Node readable stream",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/rubensworks/streamify-array.js/issues"
   },
-  "homepage": "https://github.com/rubensworks/streamify-array.js#readme"
+  "typings": "index",
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "index.js.map"
+  ],
+  "homepage": "https://github.com/rubensworks/streamify-array.js#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
 }
